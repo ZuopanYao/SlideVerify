@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 spec.name                  = 'SlideVerify'
 
-spec.version               = '0.0.1'
+spec.version               = '0.0.2'
 
 spec.ios.deployment_target = '9.0'
 
@@ -21,6 +21,8 @@ spec.source                = { :git => 'https://git.coding.net/yao7778899/SlideV
 spec.source_files          = "SlideVerify/SlideVerify/Source/*.{h,m}"
 
 spec.resources             = "SlideVerify/SlideVerify/Resources/*.png"
+
+spec.public_header_files   = "SlideVerify/SlideVerify/Source/SlideVerify.h"
 
 spec.frameworks            = 'UIKit', 'Foundation'
 
