@@ -7,39 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B9B3DA90206F7B0500C2AE76 /* SVSlideBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = B9B3DA8E206F7B0500C2AE76 /* SVSlideBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9B3DA91206F7B0500C2AE76 /* SVSlideBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B3DA8F206F7B0500C2AE76 /* SVSlideBarView.m */; };
-		B9B3DA96206F81F000C2AE76 /* arrow_bar_Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9B3DA94206F811C00C2AE76 /* arrow_bar_Highlighted@2x.png */; };
-		B9B3DA97206F81F000C2AE76 /* arrow_bar_Highlighted@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9B3DA93206F811C00C2AE76 /* arrow_bar_Highlighted@3x.png */; };
-		B9B3DA98206F81F000C2AE76 /* arrow_bar_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9B3DA95206F811C00C2AE76 /* arrow_bar_normal@2x.png */; };
-		B9B3DA99206F81F000C2AE76 /* arrow_bar_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9B3DA92206F811C00C2AE76 /* arrow_bar_normal@3x.png */; };
-		B9E223C5206F60CE00D33ED6 /* SlideVerify.h in Headers */ = {isa = PBXBuildFile; fileRef = B9E223C3206F60CE00D33ED6 /* SlideVerify.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9E223F9206F61C100D33ED6 /* SVSlideVerifyView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E223F3206F61C100D33ED6 /* SVSlideVerifyView.m */; };
-		B9E223FA206F61C100D33ED6 /* SVCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E223F5206F61C100D33ED6 /* SVCategory.m */; };
-		B9E223FB206F61C100D33ED6 /* SVTargetView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E223F8206F61C100D33ED6 /* SVTargetView.m */; };
-		B9E223FC206F61DC00D33ED6 /* SVCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = B9E223F4206F61C100D33ED6 /* SVCategory.h */; };
-		B9E223FD206F61DC00D33ED6 /* SVSlideVerifyView.h in Headers */ = {isa = PBXBuildFile; fileRef = B9E223F6206F61C100D33ED6 /* SVSlideVerifyView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9E223FE206F61DC00D33ED6 /* SVTargetView.h in Headers */ = {isa = PBXBuildFile; fileRef = B9E223F7206F61C100D33ED6 /* SVTargetView.h */; };
-		B9E22429206F68A000D33ED6 /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9E22428206F684A00D33ED6 /* arrow@2x.png */; };
+		B94D4512207323D1006A64CA /* SVCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = B94D4503207323D1006A64CA /* SVCategory.h */; };
+		B94D4513207323D1006A64CA /* SVTargetView.h in Headers */ = {isa = PBXBuildFile; fileRef = B94D4504207323D1006A64CA /* SVTargetView.h */; };
+		B94D4514207323D1006A64CA /* SVSlideBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = B94D4505207323D1006A64CA /* SVSlideBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B94D4515207323D1006A64CA /* SlideVerify.h in Headers */ = {isa = PBXBuildFile; fileRef = B94D4506207323D1006A64CA /* SlideVerify.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B94D4516207323D1006A64CA /* SVSlideVerifyView.h in Headers */ = {isa = PBXBuildFile; fileRef = B94D4507207323D1006A64CA /* SVSlideVerifyView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B94D4517207323D1006A64CA /* SVCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B94D4508207323D1006A64CA /* SVCategory.m */; };
+		B94D4518207323D1006A64CA /* SVSlideBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B94D4509207323D1006A64CA /* SVSlideBarView.m */; };
+		B94D4519207323D1006A64CA /* SVTargetView.m in Sources */ = {isa = PBXBuildFile; fileRef = B94D450A207323D1006A64CA /* SVTargetView.m */; };
+		B94D451A207323D1006A64CA /* SVSlideVerifyView.m in Sources */ = {isa = PBXBuildFile; fileRef = B94D450B207323D1006A64CA /* SVSlideVerifyView.m */; };
+		B94D451B207323D1006A64CA /* arrow_bar_Highlighted@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B94D450D207323D1006A64CA /* arrow_bar_Highlighted@3x.png */; };
+		B94D451C207323D1006A64CA /* arrow_bar_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B94D450E207323D1006A64CA /* arrow_bar_normal@3x.png */; };
+		B94D451D207323D1006A64CA /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B94D450F207323D1006A64CA /* arrow@2x.png */; };
+		B94D451E207323D1006A64CA /* arrow_bar_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B94D4510207323D1006A64CA /* arrow_bar_normal@2x.png */; };
+		B94D451F207323D1006A64CA /* arrow_bar_Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B94D4511207323D1006A64CA /* arrow_bar_Highlighted@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B9B3DA8E206F7B0500C2AE76 /* SVSlideBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVSlideBarView.h; sourceTree = "<group>"; };
-		B9B3DA8F206F7B0500C2AE76 /* SVSlideBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVSlideBarView.m; sourceTree = "<group>"; };
-		B9B3DA92206F811C00C2AE76 /* arrow_bar_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_bar_normal@3x.png"; sourceTree = "<group>"; };
-		B9B3DA93206F811C00C2AE76 /* arrow_bar_Highlighted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_bar_Highlighted@3x.png"; sourceTree = "<group>"; };
-		B9B3DA94206F811C00C2AE76 /* arrow_bar_Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_bar_Highlighted@2x.png"; sourceTree = "<group>"; };
-		B9B3DA95206F811C00C2AE76 /* arrow_bar_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_bar_normal@2x.png"; sourceTree = "<group>"; };
+		B94D4503207323D1006A64CA /* SVCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVCategory.h; sourceTree = "<group>"; };
+		B94D4504207323D1006A64CA /* SVTargetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVTargetView.h; sourceTree = "<group>"; };
+		B94D4505207323D1006A64CA /* SVSlideBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVSlideBarView.h; sourceTree = "<group>"; };
+		B94D4506207323D1006A64CA /* SlideVerify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideVerify.h; sourceTree = "<group>"; };
+		B94D4507207323D1006A64CA /* SVSlideVerifyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVSlideVerifyView.h; sourceTree = "<group>"; };
+		B94D4508207323D1006A64CA /* SVCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVCategory.m; sourceTree = "<group>"; };
+		B94D4509207323D1006A64CA /* SVSlideBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVSlideBarView.m; sourceTree = "<group>"; };
+		B94D450A207323D1006A64CA /* SVTargetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVTargetView.m; sourceTree = "<group>"; };
+		B94D450B207323D1006A64CA /* SVSlideVerifyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVSlideVerifyView.m; sourceTree = "<group>"; };
+		B94D450D207323D1006A64CA /* arrow_bar_Highlighted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_bar_Highlighted@3x.png"; sourceTree = "<group>"; };
+		B94D450E207323D1006A64CA /* arrow_bar_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_bar_normal@3x.png"; sourceTree = "<group>"; };
+		B94D450F207323D1006A64CA /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
+		B94D4510207323D1006A64CA /* arrow_bar_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_bar_normal@2x.png"; sourceTree = "<group>"; };
+		B94D4511207323D1006A64CA /* arrow_bar_Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_bar_Highlighted@2x.png"; sourceTree = "<group>"; };
 		B9E223C0206F60CE00D33ED6 /* SlideVerify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SlideVerify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9E223C3206F60CE00D33ED6 /* SlideVerify.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlideVerify.h; sourceTree = "<group>"; };
 		B9E223C4206F60CE00D33ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9E223F3206F61C100D33ED6 /* SVSlideVerifyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVSlideVerifyView.m; sourceTree = "<group>"; };
-		B9E223F4206F61C100D33ED6 /* SVCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVCategory.h; sourceTree = "<group>"; };
-		B9E223F5206F61C100D33ED6 /* SVCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVCategory.m; sourceTree = "<group>"; };
-		B9E223F6206F61C100D33ED6 /* SVSlideVerifyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVSlideVerifyView.h; sourceTree = "<group>"; };
-		B9E223F7206F61C100D33ED6 /* SVTargetView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVTargetView.h; sourceTree = "<group>"; };
-		B9E223F8206F61C100D33ED6 /* SVTargetView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVTargetView.m; sourceTree = "<group>"; };
-		B9E22428206F684A00D33ED6 /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +53,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B94D4502207323D1006A64CA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B94D4503207323D1006A64CA /* SVCategory.h */,
+				B94D4504207323D1006A64CA /* SVTargetView.h */,
+				B94D4505207323D1006A64CA /* SVSlideBarView.h */,
+				B94D4506207323D1006A64CA /* SlideVerify.h */,
+				B94D4507207323D1006A64CA /* SVSlideVerifyView.h */,
+				B94D4508207323D1006A64CA /* SVCategory.m */,
+				B94D4509207323D1006A64CA /* SVSlideBarView.m */,
+				B94D450A207323D1006A64CA /* SVTargetView.m */,
+				B94D450B207323D1006A64CA /* SVSlideVerifyView.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		B94D450C207323D1006A64CA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B94D450D207323D1006A64CA /* arrow_bar_Highlighted@3x.png */,
+				B94D450E207323D1006A64CA /* arrow_bar_normal@3x.png */,
+				B94D450F207323D1006A64CA /* arrow@2x.png */,
+				B94D4510207323D1006A64CA /* arrow_bar_normal@2x.png */,
+				B94D4511207323D1006A64CA /* arrow_bar_Highlighted@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		B9E223B6206F60CE00D33ED6 = {
 			isa = PBXGroup;
 			children = (
@@ -72,20 +100,8 @@
 		B9E223C2206F60CE00D33ED6 /* SlideVerify */ = {
 			isa = PBXGroup;
 			children = (
-				B9B3DA94206F811C00C2AE76 /* arrow_bar_Highlighted@2x.png */,
-				B9B3DA93206F811C00C2AE76 /* arrow_bar_Highlighted@3x.png */,
-				B9B3DA95206F811C00C2AE76 /* arrow_bar_normal@2x.png */,
-				B9B3DA92206F811C00C2AE76 /* arrow_bar_normal@3x.png */,
-				B9E22428206F684A00D33ED6 /* arrow@2x.png */,
-				B9E223F4206F61C100D33ED6 /* SVCategory.h */,
-				B9E223F5206F61C100D33ED6 /* SVCategory.m */,
-				B9E223F6206F61C100D33ED6 /* SVSlideVerifyView.h */,
-				B9E223F3206F61C100D33ED6 /* SVSlideVerifyView.m */,
-				B9B3DA8E206F7B0500C2AE76 /* SVSlideBarView.h */,
-				B9B3DA8F206F7B0500C2AE76 /* SVSlideBarView.m */,
-				B9E223F7206F61C100D33ED6 /* SVTargetView.h */,
-				B9E223F8206F61C100D33ED6 /* SVTargetView.m */,
-				B9E223C3206F60CE00D33ED6 /* SlideVerify.h */,
+				B94D450C207323D1006A64CA /* Resources */,
+				B94D4502207323D1006A64CA /* Source */,
 				B9E223C4206F60CE00D33ED6 /* Info.plist */,
 			);
 			path = SlideVerify;
@@ -98,11 +114,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9B3DA90206F7B0500C2AE76 /* SVSlideBarView.h in Headers */,
-				B9E223FD206F61DC00D33ED6 /* SVSlideVerifyView.h in Headers */,
-				B9E223C5206F60CE00D33ED6 /* SlideVerify.h in Headers */,
-				B9E223FC206F61DC00D33ED6 /* SVCategory.h in Headers */,
-				B9E223FE206F61DC00D33ED6 /* SVTargetView.h in Headers */,
+				B94D4516207323D1006A64CA /* SVSlideVerifyView.h in Headers */,
+				B94D4514207323D1006A64CA /* SVSlideBarView.h in Headers */,
+				B94D4515207323D1006A64CA /* SlideVerify.h in Headers */,
+				B94D4512207323D1006A64CA /* SVCategory.h in Headers */,
+				B94D4513207323D1006A64CA /* SVTargetView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,11 +180,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9B3DA96206F81F000C2AE76 /* arrow_bar_Highlighted@2x.png in Resources */,
-				B9B3DA97206F81F000C2AE76 /* arrow_bar_Highlighted@3x.png in Resources */,
-				B9B3DA98206F81F000C2AE76 /* arrow_bar_normal@2x.png in Resources */,
-				B9B3DA99206F81F000C2AE76 /* arrow_bar_normal@3x.png in Resources */,
-				B9E22429206F68A000D33ED6 /* arrow@2x.png in Resources */,
+				B94D451C207323D1006A64CA /* arrow_bar_normal@3x.png in Resources */,
+				B94D451B207323D1006A64CA /* arrow_bar_Highlighted@3x.png in Resources */,
+				B94D451D207323D1006A64CA /* arrow@2x.png in Resources */,
+				B94D451E207323D1006A64CA /* arrow_bar_normal@2x.png in Resources */,
+				B94D451F207323D1006A64CA /* arrow_bar_Highlighted@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,10 +195,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9E223FA206F61C100D33ED6 /* SVCategory.m in Sources */,
-				B9B3DA91206F7B0500C2AE76 /* SVSlideBarView.m in Sources */,
-				B9E223F9206F61C100D33ED6 /* SVSlideVerifyView.m in Sources */,
-				B9E223FB206F61C100D33ED6 /* SVTargetView.m in Sources */,
+				B94D451A207323D1006A64CA /* SVSlideVerifyView.m in Sources */,
+				B94D4517207323D1006A64CA /* SVCategory.m in Sources */,
+				B94D4518207323D1006A64CA /* SVSlideBarView.m in Sources */,
+				B94D4519207323D1006A64CA /* SVTargetView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
