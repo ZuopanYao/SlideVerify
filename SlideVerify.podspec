@@ -22,7 +22,7 @@ spec.source_files          = "SlideVerify/SlideVerify/Source/*.{h,m}"
 
 spec.resources             = "SlideVerify/SlideVerify/Resources/*.png"
 
-spec.public_header_files   = "SlideVerify/SlideVerify/Source/SlideVerify.h"
+spec.public_header_files   = "SlideVerify/SlideVerify/Source/{SlideVerify.h,SVSlideVerifyView.h,SVSlideBarView.h}"
 
 spec.frameworks            = 'UIKit', 'Foundation'
 
