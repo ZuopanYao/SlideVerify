@@ -2,7 +2,7 @@
 
 iOS平台的滑动验证码
 
-![](/SlideVerify.gif)
+![](SlideVerify.gif)
 
 ## 要求/Requirements
 - iOS 9.0+
