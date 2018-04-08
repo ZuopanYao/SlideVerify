@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 spec.name                  = 'SlideVerify'
 
-spec.version               = '0.0.2'
+spec.version               = '1.0.0'
 
 spec.ios.deployment_target = '9.0'
 

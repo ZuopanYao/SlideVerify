@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+@property (weak) IBOutlet UILabel *modeTip;
 
 @end
 

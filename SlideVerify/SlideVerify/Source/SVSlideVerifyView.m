@@ -96,9 +96,12 @@
 
 - (void)setSlideBarView:(SVSlideBarView *)slideBarView {
     
+    self.userInteractionEnabled = NO;
+
     _slideBarView = slideBarView;
     __weak typeof(self) weakSelf = self;
-    _slideBarView.movedBlock = ^(CGFloat moveDistance, BOOL isEnded) {
+    
+    void (^movedBlock)(CGFloat, BOOL) = ^(CGFloat moveDistance, BOOL isEnded) {
         
         if (isEnded) {
             
@@ -111,6 +114,8 @@
             weakSelf.interactView.center = center;
         }
     };
+    
+    [_slideBarView setValue:movedBlock forKey:@"movedBlock"];
 }
 
 #pragma mark -
@@ -120,6 +125,8 @@
     
     self.isVerified = NO;
     self.interactView.image = self.targetView.interactImage;
+    
+    [self.slideBarView setValue:@(2) forKey:@"stateCode"];
     
     self.interactCenter = self.targetView.interactCenter;
     if (self.slideBarView) {
@@ -324,9 +331,11 @@
         self.isVerified = YES;
         self.interactView.hidden = YES;
         [self.targetView refreshWhenSuccess];
+        [self.slideBarView setValue:@(1) forKey:@"stateCode"];
         self.compeleted(YES);
     }else {
         
+        [self.slideBarView setValue:@(0) forKey:@"stateCode"];
         self.compeleted(NO);
         self.interactView.center = self.interactCenter;
     }

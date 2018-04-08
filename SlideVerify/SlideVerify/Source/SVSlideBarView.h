@@ -10,6 +10,4 @@
 
 @interface SVSlideBarView : UIView
 
-@property (nonnull, copy, nonatomic) void (^movedBlock)(CGFloat moveDistance, BOOL isEnded);
-
 @end

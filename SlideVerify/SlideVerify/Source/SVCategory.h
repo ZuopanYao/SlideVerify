@@ -23,7 +23,7 @@
 @property (nonatomic, assign, readonly) CGFloat top;
 @property (nonatomic, assign, readonly) CGFloat right;
 @property (nonatomic, assign, readonly) CGFloat bottom;
-@property (nonatomic, assign, readonly) CGFloat width;
+@property (nonatomic, assign, readwrite) CGFloat width;
 @property (nonatomic, assign, readonly) CGFloat height;
 
 @end

@@ -51,6 +51,13 @@
     return self.frame.size.width;
 }
 
+- (void)setWidth:(CGFloat)width {
+    
+    CGRect aFrame = self.frame;
+    aFrame.size.width = width;
+    self.frame = aFrame;
+}
+
 - (CGFloat)height {
     
     return self.frame.size.height;
