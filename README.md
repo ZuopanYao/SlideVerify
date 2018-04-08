@@ -14,6 +14,12 @@ iOS平台的滑动验证码
 ```
 pod 'SlideVerify'
 ```
+
+### Carthage
+```
+github "ZuopanYao/SlideVerify"
+```
+
 ## 使用/Usage
 - 模式一
 
